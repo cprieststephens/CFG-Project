@@ -10,16 +10,106 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <!--Ellie's link for Font Awesome:
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    -->
+    <!--New link for Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/e02dd0949b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>CFG Project</title>
   </head>
+
   <body>
+    <header>
+      <!--Bootstrap responsive navbar:-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img\Fig and Pepper Logo.png"
+            alt="Fig and Pepper logo"
+            width="30"
+            height="30"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!--
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log in/register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Fruit</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Vegetables</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Bakery</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Pasta</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-regular fa-cart-shopping"></i
+              ></a>
+            </li>
+          </ul>
+          <!--
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+          -->
+        </div>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
+
+    <!--Bootstrap JavaScript link needs to go at the end of the body-->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
