@@ -1,3 +1,13 @@
 #main_image {
-  width: 40%;
+  height: 600px;
+  width: 100%;
+  background: url(img/nithin-p-john-4mTU1ZQMVzQ-unsplash.jpg);
+  background-size: 1200px;
+  background-repeat: no-repeat;
+}
+
+#company_info {
+  background-color: aquamarine;
+  color: blue;
+  width: 30%;
 }
