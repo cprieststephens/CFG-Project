@@ -24,13 +24,12 @@
   <body>
     <header>
       <!--Bootstrap navbar:-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#"
           ><img
+            id="company_logo"
             src="img\Fig and Pepper Logo.png"
             alt="Fig and Pepper logo"
-            width="30"
-            height="30"
         /></a>
         <button
           class="navbar-toggler"
@@ -46,6 +45,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#"><img
+                id="company_logo"
+                src="img\Fig and Pepper Logo.png"
+                alt="Fig and Pepper logo"
+            /></a>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="#">Log in/register</a>
             </li>
@@ -69,11 +75,13 @@
                 <a class="dropdown-item" href="#">Pasta</a>
               </div>
             </li>
-            <!--<li class="nav-item">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
               <a class="nav-link" href="#"
-                ><i class="fa-regular fa-cart-shopping"></i
+                ><img id="cart_icon" src="img\cart4.svg" alt="Shopping cart icon"/></i
               ></a>
-            </li>-->
+            </li>
           </ul>
         </div>
       </nav>
