@@ -42,7 +42,7 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   background-color: #256d85;
 }
 
@@ -59,4 +59,16 @@ h1 {
 #mailing_submit {
   border: 1px solid black;
   border-radius: 5px;
+}
+
+#landing_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 2rem;
 }
