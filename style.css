@@ -25,18 +25,17 @@ h1 {
   display: flex;
 }
 
-/* Change this to one class for all images in carousel not IDs*/
-#cheeseboard_image {
+.carousel_side {
   width: 25%;
   height: 10%;
 }
 
-#carouselExampleInterval {
+/*#carouselExampleInterval {
   width: 50%;
   height: 10%;
-}
+}*/
 
-#macarons_image {
-  width: 25%;
+.carousel_image {
+  width: 50%;
   height: 10%;
 }
