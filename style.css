@@ -37,3 +37,26 @@ h1 {
   width: 350px;
   height: 500px;
 }
+
+#form_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #256d85;
+}
+
+#mailing_list {
+  margin-top: 3%;
+}
+
+#email {
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#mailing_submit {
+  border: 1px solid black;
+  border-radius: 5px;
+}
