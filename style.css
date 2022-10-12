@@ -7,7 +7,7 @@ body {
 }
 
 #cart_icon {
-  width: 50%;
+  width: 35px;
 }
 
 #background_image {
@@ -42,12 +42,14 @@ h1 {
 
 .carousel_side {
   width: 320px;
-  height: 500px;
+  /*height: 500px;*/
+  height: 100vh;
 }
 
 .carousel_image {
   width: 350px;
-  height: 500px;
+  /*height: 500px;*/
+  height: 100vh;
 }
 
 #form_container {
