@@ -1,5 +1,6 @@
 body {
   font-family: "Sanchez", serif;
+  padding-top: 100px;
 }
 
 #company_logo {
@@ -89,6 +90,15 @@ h1 {
 }
 
 /*Products Page*/
+
+section {
+  border: 1px solid black;
+  padding-top: 30px;
+}
+
+#space {
+  height: 50px;
+}
 
 #category_title {
   text-align: center;
