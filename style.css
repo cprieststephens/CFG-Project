@@ -124,3 +124,10 @@ section {
 .card-img-top {
   border-bottom: 1px solid black;
 }
+
+.btn {
+  color: white;
+  background-color: #256d85;
+  border: none;
+  margin-top: 15px;
+}
