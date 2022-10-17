@@ -120,3 +120,7 @@ section {
   width: 14rem;
   height: 22rem;
 }
+
+.card-img-top {
+  border-bottom: 1px solid black;
+}
