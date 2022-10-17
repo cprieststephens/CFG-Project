@@ -96,8 +96,8 @@ section {
   padding-top: 30px;
 }
 
-#space {
-  height: 50px;
+.space {
+  height: 100px;
 }
 
 #category_title {
@@ -105,9 +105,9 @@ section {
 }
 
 .product_category {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-left: 10px;
   display: grid;
   gap: 5px;
