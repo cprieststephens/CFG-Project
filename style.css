@@ -1,6 +1,6 @@
 body {
   font-family: "Sanchez", serif;
-  padding-top: 100px;
+  padding-top: 75px;
 }
 
 #company_logo {
@@ -118,5 +118,5 @@ section {
 .card {
   border: 1px solid black;
   width: 14rem;
-  height: 20rem;
+  height: 22rem;
 }
