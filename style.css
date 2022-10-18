@@ -3,6 +3,10 @@ body {
   padding-top: 75px;
 }
 
+nav {
+  border-bottom: 1px solid black;
+}
+
 #company_logo {
   width: 50px;
 }
@@ -89,15 +93,21 @@ h1 {
   font-size: 2rem;
 }
 
-/*Products Page*/
+/*Shop Page*/
+
+#products {
+  background-color: #a5c9ca;
+}
 
 section {
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding-top: 30px;
 }
 
 .space {
-  height: 100px;
+  height: 75px;
+  background-color: white;
 }
 
 #category_title {
