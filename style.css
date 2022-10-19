@@ -105,9 +105,20 @@ section {
   padding-top: 30px;
 }
 
+#top_section {
+  border-top: none;
+}
+
 .space {
   height: 75px;
   background-color: white;
+  border-top: 5px solid #256d85;
+  border-bottom: 5px solid #256d85;
+}
+
+#fruit {
+  border: none;
+  background-color: #a5c9ca;
 }
 
 #category_title {
