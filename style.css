@@ -127,12 +127,12 @@ section {
 
 .product_category {
   margin-top: 40px;
-  margin-right: 10px;
+  margin-right: 2%;
   margin-bottom: 40px;
-  margin-left: 10px;
+  margin-left: 3%;
   display: grid;
-  gap: 5px;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  gap: 2%;
+  grid-template-columns: 18% 18% 18% 18% 18%;
   grid-template-rows: 50%;
 }
 
@@ -144,6 +144,8 @@ section {
 
 .card-img-top {
   border-bottom: 1px solid black;
+  width: 100%;
+  height: 45%;
 }
 
 .btn {
