@@ -7,11 +7,11 @@ nav {
   border-bottom: 1px solid black;
 }
 
-#company_logo {
+.company_logo {
   width: 50px;
 }
 
-#cart_icon {
+.cart_icon {
   width: 35px;
 }
 
@@ -81,7 +81,7 @@ h1 {
   border-radius: 5px;
 }
 
-#landing_footer {
+.landing_footer {
   display: flex;
   justify-content: center;
   padding-top: 1%;
@@ -121,7 +121,7 @@ section {
   background-color: #a5c9ca;
 }
 
-#category_title {
+.category_title {
   text-align: center;
 }
 
@@ -153,4 +153,8 @@ section {
   background-color: #256d85;
   border: none;
   margin-top: 15px;
+}
+
+#final-section {
+  border-bottom: 5px solid #256d85;
 }
