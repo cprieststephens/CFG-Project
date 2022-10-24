@@ -21,7 +21,8 @@ nav {
   height: 85vh;
   width: 100%;
   background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
-  background-size: 1300px;
+  /*background-size: 1300px;*/
+  background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -158,3 +159,55 @@ section {
 #final-section {
   border-bottom: 5px solid #256d85;
 }
+
+/*Media queries*/
+
+/*Small phone screen*/
+
+@media only screen and (min-width: 350px) and (max-width: 413px) {
+  /*Landing page*/
+}
+
+/*iPhone XR screen*/
+
+@media only screen and (min-width: 414px) and (max-width: 684px) {
+  /*Landing page*/
+
+  #background_image {
+    height: 31vh;
+  }
+
+  #text_container {
+    height: 31vh;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  #carousel_container {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 30% 30%;
+  }
+
+  .carousel_side {
+    display: none;
+  }
+
+  .carousel_image {
+    width: 350px;
+    height: 40vh;
+  }
+}
+
+/*Tablet screen*/
+
+/*@media only screen and (min-width: 685px) and (max-width: 767px) {
+}*/
