@@ -126,20 +126,24 @@ section {
 }
 
 .product_category {
-  margin-top: 40px;
+  /*margin-top: 40px;
   margin-right: 2%;
   margin-bottom: 40px;
   margin-left: 3%;
   display: grid;
   gap: 2%;
   grid-template-columns: 18% 18% 18% 18% 18%;
-  grid-template-rows: 50%;
+  grid-template-rows: 50%;*/
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 55px;
 }
 
 .card {
   border: 1px solid black;
   width: 14rem;
   height: 22rem;
+  margin-top: 20px;
 }
 
 .card-img-top {
@@ -238,12 +242,12 @@ section {
   }
 
   .product_category {
-    /*margin-top: 40px;
+    margin-top: 40px;
     margin-right: 2%;
     margin-bottom: 40px;
     margin-left: 3%;
     display: grid;
     gap: 2%;
-    grid-template-columns: 18% 18% 18% 18% 18%;*/
+    grid-template-columns: 18% 18% 18% 18% 18%;
   }
 }
