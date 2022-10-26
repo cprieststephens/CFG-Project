@@ -81,7 +81,7 @@ h1 {
   border-radius: 5px;
 }
 
-.landing_footer {
+footer {
   display: flex;
   justify-content: center;
   padding-top: 1%;
