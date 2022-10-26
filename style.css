@@ -155,6 +155,34 @@ section {
   border-bottom: 5px solid #256d85;
 }
 
+/*Log in page*/
+
+#login_page_background {
+  height: 77vh;
+  width: 100%;
+  background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
+  background-size: 1300px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#login_form {
+  width: 40%;
+  height: 65vh;
+  background-color: #a5c9ca;
+  padding: 20px;
+  margin-left: 7%;
+}
+
+#registration_form {
+  width: 40%;
+  height: 65vh;
+  background-color: #a5c9ca;
+  padding: 20px;
+  margin-left: 5%;
+}
+
 /*Media queries for mobile phone screens*/
 
 @media only screen and (min-width: 360px) and (max-width: 684px) {
