@@ -157,7 +157,7 @@ section {
 
 /*Log in page*/
 
-/*#login_page_background {
+#login_page_background {
   height: 77vh;
   width: 100%;
   background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
@@ -167,121 +167,13 @@ section {
   align-items: center;
 }
 
-#login_form {
+.login_register_form {
   width: 40%;
   height: 65vh;
   background-color: #a5c9ca;
   padding: 20px;
   margin-left: 7%;
 }
-
-#registration_form {
-  width: 40%;
-  height: 65vh;
-  background-color: #a5c9ca;
-  padding: 20px;
-  margin-left: 5%;
-}*/
-
-/*Iuliia's code*/
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Sanchez", serif;
-}
-/*background picture*/
-main {
-  background-image: url(./img/landing_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
-  padding: 200px;
-  margin: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.container_login {
-  background-color: rgba(38, 191, 202, 0.7);
-  border-radius: 15px;
-  text-align: center;
-  padding: 3rem;
-  min-width: 20rem;
-  max-width: 50%;
-  margin: 0 auto;
-  transition: 0.5s;
-  padding: 16px;
-  justify-content: center;
-}
-.container {
-  background-color: rgba(38, 191, 202, 0.7);
-  border-radius: 15px;
-  text-align: center;
-  padding: 3rem;
-  min-width: 20rem;
-  max-width: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  transition: 0.5s;
-  padding: 16px;
-  justify-content: center;
-}
-h1 {
-  font-size: 60px;
-  color: rgb(16, 73, 73);
-}
-​
-​
-​
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 75%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-​ input[type="text"]:focus,
-input[type="password"]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-​
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-​
-/* Set a style for the login/register button */
-.registerbtn {
-  background-color: rgb(253, 253, 253);
-  color: rgb(16, 73, 73);
-  font-weight: bold;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 30%;
-  opacity: 0.9;
-}
-​ .registerbtn:hover {
-  opacity: 1;
-}
-​
-/* Add white text color to links */
-a {
-  color: white;
-}
-​
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-  font-weight: bold;
-}
-​
-/*End of Iuliia's code*/
 
 /*Media queries for mobile phone screens*/
 
