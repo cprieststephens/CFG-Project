@@ -160,8 +160,9 @@ section {
 #login_page_background {
   height: 77vh;
   width: 100%;
-  background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
-  background-size: 1300px;
+  background: url(img/landing_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -170,9 +171,17 @@ section {
 .login_register_form {
   width: 40%;
   height: 65vh;
-  background-color: #a5c9ca;
+  background-color: rgba(165, 201, 202, 0.7);
   padding: 20px;
   margin-left: 7%;
+}
+
+input {
+  background-color: white;
+}
+
+#login_button {
+  margin-top: 27px;
 }
 
 /*Media queries for mobile phone screens*/
