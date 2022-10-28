@@ -15,6 +15,18 @@ nav {
   width: 35px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.fa-brands {
+  color: black;
+  font-size: 2rem;
+}
+
 /*Landing Page*/
 
 #background_image {
@@ -79,18 +91,6 @@ h1 {
   border: 1px solid black;
   background-color: rgb(165, 201, 202);
   border-radius: 5px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.fa-brands {
-  color: black;
-  font-size: 2rem;
 }
 
 /*Shop Page*/
@@ -158,7 +158,7 @@ section {
 /*Log in page*/
 
 #login_page_background {
-  height: 77vh;
+  height: 87vh;
   width: 100%;
   background: url(img/landing_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
   background-size: cover;
@@ -256,5 +256,26 @@ input {
   .card {
     margin-top: 10px;
     margin-left: 20%;
+  }
+
+  /*Log in Page*/
+
+  #login_page_background {
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .login_register_form {
+    width: 80%;
+    height: 55vh;
+    margin: 10px 0 0 0;
+  }
+
+  .form_title {
+    font-size: 20px;
+  }
+
+  .fa-brands {
+    font-size: 1.5rem;
   }
 }
