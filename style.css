@@ -273,6 +273,14 @@ input {
     margin-left: 20%;
   }
 
+  #final_card {
+    margin-bottom: 10px;
+  }
+
+  #final_section {
+    border: none;
+  }
+
   .additional_footer {
     display: none;
   }
