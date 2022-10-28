@@ -272,6 +272,10 @@ input {
     margin-left: 20%;
   }
 
+  .additional_footer {
+    display: none;
+  }
+
   /*Log in Page*/
 
   #login_page_background {
