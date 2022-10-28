@@ -151,7 +151,7 @@ section {
   margin-top: 15px;
 }
 
-#final-section {
+#final_section {
   border-bottom: 5px solid #256d85;
 }
 
@@ -168,7 +168,8 @@ section {
   align-items: center;
 }
 
-.login_register_form {
+#login_form,
+#register_form {
   width: 40%;
   height: 65vh;
   background-color: rgba(165, 201, 202, 0.7);
@@ -283,17 +284,23 @@ input {
     flex-direction: column;
   }
 
-  .login_register_form {
-    width: 80%;
-    height: 55vh;
-    margin: 10px 0 0 0;
-  }
-
   .form_title {
     font-size: 20px;
   }
 
-  .fa-brands {
-    font-size: 1.5rem;
+  #login_form {
+    width: 80%;
+    height: 325px;
+    margin: 15px 0 0 0;
+  }
+
+  #register_form {
+    width: 80%;
+    height: 375px;
+    margin: 15px 0 15px 0;
+  }
+
+  #login_button {
+    margin-top: 0px;
   }
 }
