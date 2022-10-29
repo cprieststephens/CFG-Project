@@ -13,4 +13,7 @@
   https://unsplash.com/images<br>
   https://colorhunt.co/<br>
   https://rgbcolorcode.com/<br>
+  https://fonts.google.com/<br>
+  https://fontawesome.com/<br>
+  https://www.figma.com/community/plugin/1074084347757622122/Iconduck<br>
 - README template found here on 13.06.22: https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc
