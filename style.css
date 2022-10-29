@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gainsboro;
 }
 
 .company_logo {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .carousel_side {
-  width: 378px;
+  width: 379px;
   height: 87vh;
 }
 
