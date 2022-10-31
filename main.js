@@ -9,8 +9,7 @@ let email = document.getElementById("email");
 let emailErrorMessage = document.getElementById("email_error_message");
 let mailingListForm = document.getElementById("mailing_list");
 function emailMessage() {
-  let getEmail = email.value;
-  if (getEmail == "") {
+  if (email.value == "") {
     emailErrorMessage.innerText = "Please enter your email address";
   } else {
     mailingListForm.innerText = "Thank you! Your discount code is TAKE10";
