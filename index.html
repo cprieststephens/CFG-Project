@@ -89,9 +89,9 @@
                   class="cart_icon"
                   src="img\landing_page\cart4.svg"
                   alt="Shopping cart icon"
-                  onmouseover="cartAlert()"
+                  onmouseover="cartMessage()"
                 />
-                <p class="cart_text" onmouseover="cartAlert()">Cart</p></a
+                <p class="cart_text" onmouseover="cartMessage()">Cart</p></a
               >
             </li>
             <li class="nav-item">
@@ -108,7 +108,9 @@
         alt="Piles of raw leeks, carrots, courgettes, onion, broccoli and runner beans"
       >
         <div id="text_container">
-          <h1 id="main_title" onmouseover="discountAlert()">Fig and Pepper</h1>
+          <h1 id="main_title" onmouseover="discountMessage()">
+            Fig and Pepper
+          </h1>
           <p>
             Fresh, locally sourced produce delivered to your door. Try our award
             winning cheeses, treat yourself to one of our handmade cakes or whip
@@ -181,7 +183,7 @@
       </div>
       <!--Mailing list-->
       <div id="form_container">
-        <form id="mailing_list">
+        <form id="mailing_list" onsubmit="return false">
           <label>Join our mailing list:</label>
           <br />
           <input
@@ -190,7 +192,8 @@
             name="email"
             placeholder="Email address"
           />
-          <button id="mailing_submit" onclick="emailAlert()">Submit</button>
+          <button id="mailing_submit" onclick="emailMessage()">Submit</button>
+          <p id="email_error_message"></p>
         </form>
       </div>
     </main>
