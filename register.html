@@ -108,7 +108,7 @@
     >
       <!--Log in form-->
       <div id="login_form">
-        <h4 class="form_title">Log in</h4>
+        <h4 class="form_title" id="reset_title">Log in</h4>
         <p id="login_feedback">Please enter your details:</p>
         <form action="action_page.php" novalidate onsubmit="return false">
           <div class="form-group">
@@ -130,11 +130,21 @@
               required
             />
           </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="check_box" />
+          <div class="form-group form-check" id="remember_me">
+            <input type="checkbox" class="form-check-input" />
             <label class="form-check-label" for="check_box">Remember me</label>
           </div>
-          <p>Forgot your password?</p>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="reset_check_box"
+            />
+            <label class="form-check-label" for="check_box"
+              >Forgot your password?</label
+            >
+          </div>
+          <p></p>
           <button
             type="submit"
             class="btn"

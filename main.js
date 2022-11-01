@@ -37,9 +37,28 @@ function loginMessage() {
   } else if (loginPassword.value == "") {
     loginFeedback.innerText = "Please enter your password:";
   } else {
-    loginFeedback.innerText = "Welcome back!";
+    loginFeedback.innerText = "Thank you!";
   }
 }
+
+//Function to reset password
+let resetCheckBox = document.getElementById("reset_check_box");
+let resetTitle = document.getElementById("reset_title");
+let rememberMe = document.getElementById("remember_me");
+let loginButton = document.getElementById("login_button");
+let resetPasswordForm = document.getElementById("login_form");
+resetCheckBox.addEventListener("change", function (event) {
+  if (event.currentTarget.checked) {
+    resetTitle.innerText = "Reset Your Password";
+    loginFeedback.innerText =
+      "Please enter your email address and we'll send a reset link:";
+    loginPassword.style.display = "none";
+    loginPassword.value = "xxx";
+    rememberMe.style.display = "none";
+    loginButton.innerText = "Submit";
+    resetPasswordForm.style.height = "50vh";
+  }
+});
 
 //Function to validate registration form
 let registerEmail = document.getElementById("register_email");
