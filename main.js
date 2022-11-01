@@ -53,7 +53,6 @@ resetCheckBox.addEventListener("change", function (event) {
     resetTitle.innerText = "Reset Your Password";
     loginFeedback.innerText =
       "Please enter your email address and we'll send a reset link:";
-    loginFeedback.style.color = "#256d85";
     loginPassword.style.display = "none";
     loginPassword.value = "xxx";
     rememberMe.style.display = "none";
