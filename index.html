@@ -183,7 +183,7 @@
       <!--Mailing list-->
       <div id="form_container">
         <form id="mailing_list" onsubmit="return false">
-          <label>Join our mailing list:</label>
+          <label id="email_error_message">Join our mailing list:</label>
           <br />
           <input
             type="text"
@@ -192,7 +192,6 @@
             placeholder="Email address"
           />
           <button id="mailing_submit" onclick="emailMessage()">Submit</button>
-          <p id="email_error_message"></p>
         </form>
       </div>
     </main>
