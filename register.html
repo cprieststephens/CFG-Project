@@ -67,7 +67,9 @@
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="shop.html#fruit">Fruit</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="shop.html#vegetables">Vegetables</a>
+                <a class="dropdown-item" href="shop.html#vegetables"
+                  >Vegetables</a
+                >
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="shop.html#bread">Bread</a>
                 <div class="dropdown-divider"></div>
@@ -87,7 +89,9 @@
                   src="img\landing_page\cart4.svg"
                   alt="Shopping cart icon"
                   onmouseover="cartMessage()"
-              /><p class="cart_text" onmouseover="cartMessage()">Cart</p></a>
+                />
+                <p class="cart_text" onmouseover="cartMessage()">Cart</p></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" id="cart_message"></a>
@@ -102,11 +106,11 @@
       id="login_page_background"
       alt="Pink, purple and yellow macarons on a pink background"
     >
-    <!--Log in form-->
+      <!--Log in form-->
       <div id="login_form">
         <h4 class="form_title">Log in</h4>
-        <p>Please enter your details:</p>
-        <form action="action_page.php">
+        <p id="login_feedback">Please enter your details:</p>
+        <form action="action_page.php" novalidate onsubmit="return false">
           <div class="form-group">
             <input
               type="email"
@@ -127,48 +131,60 @@
             />
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="check_box">
+            <input type="checkbox" class="form-check-input" id="check_box" />
             <label class="form-check-label" for="check_box">Remember me</label>
           </div>
           <p>Forgot your password?</p>
-          <button type="submit" class="btn" id="login_button">Log in</button>
+          <button
+            type="submit"
+            class="btn"
+            id="login_button"
+            onclick="loginMessage()"
+          >
+            Log in
+          </button>
         </form>
       </div>
       <!--End of log in form-->
       <!--Registration form-->
       <div id="register_form">
         <h4 class="form_title">Register</h4>
-        <p>Please fill in this form to create an account:</p>
-        <div class="form-group">
-          <input
-            type="email"
-            placeholder="Enter email"
-            class="form-control"
-            id="register_email"
-            aria-describedby="emailHelp"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="password"
-            placeholder="Enter password"
-            class="form-control"
-            id="register_password"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="password"
-            placeholder="Repeat password"
-            class="form-control"
-            id="repeat_password"
-            required
-          />
-        </div>
+        <p id="register_feedback">
+          Please fill in this form to create an account:
+        </p>
+        <form action="action_page.php" novalidate onsubmit="return false">
+          <div class="form-group">
+            <input
+              type="email"
+              placeholder="Enter email"
+              class="form-control"
+              id="register_email"
+              aria-describedby="emailHelp"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="Enter password"
+              class="form-control"
+              id="register_password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="Repeat password"
+              class="form-control"
+              id="repeat_password"
+              required
+            />
+          </div>
           <p>By creating an account you agree to our Terms & Privacy</p>
-          <button type="submit" class="btn">Register</button>
+          <button type="submit" class="btn" onclick="registerMessage()">
+            Register
+          </button>
         </form>
       </div>
       <!--End of registration form-->
