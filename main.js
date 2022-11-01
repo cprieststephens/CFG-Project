@@ -14,8 +14,10 @@ let mailingListForm = document.getElementById("mailing_list");
 function emailMessage() {
   if (email.value == "") {
     emailErrorMessage.innerText = "Please enter your email address:";
+    emailErrorMessage.style.color = "#a5c9ca";
   } else {
     mailingListForm.innerText = "Thank you! Your discount code is MAIL10";
+    mailingListForm.style.color = "#a5c9ca";
     mailingListForm.style.paddingTop = "2%";
     mailingListForm.style.paddingBottom = "1.5%";
   }
@@ -30,10 +32,13 @@ let loginFeedback = document.getElementById("login_feedback");
 function loginMessage() {
   if (loginEmail.value == "") {
     loginFeedback.innerText = "Please enter your email address:";
+    loginFeedback.style.color = "#256d85";
   } else if (loginPassword.value == "") {
     loginFeedback.innerText = "Please enter your password:";
+    loginFeedback.style.color = "#256d85";
   } else {
     loginFeedback.innerText = "Thank you!";
+    loginFeedback.style.color = "black";
   }
 }
 
@@ -48,6 +53,7 @@ resetCheckBox.addEventListener("change", function (event) {
     resetTitle.innerText = "Reset Your Password";
     loginFeedback.innerText =
       "Please enter your email address and we'll send a reset link:";
+    loginFeedback.style.color = "#256d85";
     loginPassword.style.display = "none";
     loginPassword.value = "xxx";
     rememberMe.style.display = "none";
@@ -64,11 +70,15 @@ let registerFeedback = document.getElementById("register_feedback");
 function registerMessage() {
   if (registerEmail.value == "") {
     registerFeedback.innerText = "Please enter your email address:";
+    registerFeedback.style.color = "#256d85";
   } else if (registerPassword.value == "") {
     registerFeedback.innerText = "Please enter a password:";
+    registerFeedback.style.color = "#256d85";
   } else if (repeatPassword.value == "") {
     registerFeedback.innerText = "Please re-enter your password:";
+    registerFeedback.style.color = "#256d85";
   } else {
     registerFeedback.innerText = "Thank you for creating your account!";
+    registerFeedback.style.color = "black";
   }
 }
