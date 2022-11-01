@@ -1,9 +1,3 @@
-//Function to create message on mouseover of cart icon and cart text
-let emptyCartMessage = document.getElementById("cart_message");
-function cartMessage() {
-  emptyCartMessage.innerText = "Your cart is empty";
-}
-
 //Landing Page
 
 //Function to create prompt message for mailing list
