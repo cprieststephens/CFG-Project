@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="style.css" />
     <title>CFG Project</title>
   </head>
-
   <body>
     <header>
       <!--Bootstrap navbar-->
@@ -112,8 +111,8 @@
           </h1>
           <p>
             Fresh, locally sourced produce delivered to your door. Try our award
-            winning cheeses, treat yourself to one of our handmade cakes or whip
-            up a quick dinner with our pasta range.
+            winning cheeses, treat yourself to one of our handmade desserts or
+            whip up a quick dinner with our pasta range.
           </p>
           <h5 id="mailing_list_prompt"></h5>
         </div>
@@ -180,18 +179,20 @@
           alt="Multicoloured macarons"
         />
       </div>
-      <!--Mailing list-->
+      <!--Mailing list form-->
       <div id="form_container">
         <form id="mailing_list" onsubmit="return false">
           <label id="email_error_message">Join our mailing list:</label>
           <br />
           <input
             type="text"
-            id="email"
+            id="mailing_list_email"
             name="email"
             placeholder="Email address"
           />
-          <button id="mailing_submit" onclick="emailMessage()">Submit</button>
+          <button id="mailing_list_submit" onclick="emailMessage()">
+            Submit
+          </button>
         </form>
       </div>
     </main>

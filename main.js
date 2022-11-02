@@ -8,11 +8,11 @@ function discountMessage() {
 }
 
 //Function to validate mailing list form
-let email = document.getElementById("email");
+let mailingListEmail = document.getElementById("mailing_list_email");
 let emailErrorMessage = document.getElementById("email_error_message");
 let mailingListForm = document.getElementById("mailing_list");
 function emailMessage() {
-  if (email.value == "") {
+  if (mailingListEmail.value == "") {
     emailErrorMessage.innerText = "Please enter your email address:";
     emailErrorMessage.style.color = "#a5c9ca";
   } else {
