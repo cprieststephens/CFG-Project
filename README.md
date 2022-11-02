@@ -1,9 +1,9 @@
-<img src="img\landing_page\CFG_Landing_Page.png" alt="Landing page for the fictional Fig and Pepper deli" title="CFG Final Project Landing Page" width="400px" margin-left="50px"><br>
+<img src="img\landing_page\CFG_Landing_Page.png" alt="Project website landing page" title="CFG Final Project Landing Page" width="400px"><br>
 
 - Project Title: Code First Girls Project
-- GitHub Pages link: https://cprieststephens.github.io/CFG-Project/
 - Authors: Camilla Priest-Stephens and Iuliia Ustkachkintseva
 - Description: We built this website as our final project for the Code First Girls Introduction to Web Development course. We used HTML, CSS, Bootstrap 4.6 and JavaScript.
+- GitHub Pages link: https://cprieststephens.github.io/CFG-Project/
 - Resources:<br>
   Code First Girls Introduction to Web Development course materials<br>
   Code First Girls JavaScript MOOC Sprint course materials<br>
