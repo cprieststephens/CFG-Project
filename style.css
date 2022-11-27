@@ -84,14 +84,18 @@ footer {
   /*width: 450px;*/
   width: 480px;
   height: 37vh;
-  background-color: yellow;
+  /*background-color: yellow;*/
+}
+
+.carousel-item {
+  width: 480px;
 }
 
 .carousel_image {
   /*width: 540px;*/
   width: 480px;
   height: 37vh;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 #form_container {
