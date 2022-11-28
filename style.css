@@ -196,20 +196,6 @@ input {
   margin-top: 27px;
 }
 
-/*Media queries for navbar*/
-
-@media only screen and (min-width: 1000px) {
-  .cart_text {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .cart_icon {
-    display: none;
-  }
-}
-
 /*Media queries for mobile phone screens*/
 
 @media only screen and (min-width: 360px) and (max-width: 684px) {
