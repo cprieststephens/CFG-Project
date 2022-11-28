@@ -25,10 +25,12 @@ footer {
 /*Landing Page*/
 
 #background_image {
-  height: 37vh;
+  /*height: 37vh;*/
+  height: auto;
   width: 100%;
   background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
-  background-size: 1440px;
+  /*background-size: 1440px;*/
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -61,6 +63,11 @@ footer {
   gap: 0;
   grid-template-rows: 100%;
   grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.carousel_side {
+  max-width: 100%;
+  height: auto;
 }
 
 /*#carousel_container {
@@ -207,13 +214,13 @@ input {
   /*Landing page*/
 
   #background_image {
-    height: 39vh;
+    height: auto;
     background-size: cover;
     width: 100%;
   }
 
   #text_container {
-    height: 39vh;
+    height: auto;
     width: 65%;
   }
 
@@ -228,14 +235,14 @@ input {
     grid-template-rows: 30% 30% 30%;
   }*/
 
-  .carousel_side {
+  /*.carousel_side {
     display: none;
-  }
+  }*/
 
-  .carousel_image {
+  /*.carousel_image {
     width: 350px;
     height: 39vh;
-  }
+  }*/
 
   #form_container {
     padding-bottom: 7%;
