@@ -70,10 +70,10 @@ footer {
   height: 37vh;
 }
 
-.carousel_image {
+/*.carousel_image {
   width: 480px;
   height: 37vh;
-}
+}*/
 
 #form_container {
   display: flex;
@@ -81,7 +81,6 @@ footer {
   text-align: center;
   padding-bottom: 2%;
   background-color: #256d85;
-  max-width: 1440px;
   margin: 0;
 }
 
@@ -193,36 +192,31 @@ input {
   margin-top: 27px;
 }
 
-/*Media queries for mobile phone screens*/
-
-@media only screen and (min-width: 360px) and (max-width: 684px) {
+/*Mobile screens*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   /*Landing page*/
 
   #background_image {
-    height: 33vh;
+    height: 39vh;
     background-size: cover;
     width: 100%;
   }
 
   #text_container {
-    height: 33vh;
-    width: 50%;
+    height: 39vh;
+    width: 65%;
   }
 
-  h1 {
-    font-size: 20px;
+  #description {
+    font-size: 1.5rem;
   }
 
-  p {
-    font-size: 11px;
-  }
-
-  #carousel_container {
+  /*#carousel_container {
     display: grid;
     gap: 0;
     grid-template-columns: 100%;
     grid-template-rows: 30% 30% 30%;
-  }
+  }*/
 
   .carousel_side {
     display: none;
@@ -230,7 +224,7 @@ input {
 
   .carousel_image {
     width: 350px;
-    height: 40vh;
+    height: 39vh;
   }
 
   #form_container {
@@ -312,3 +306,14 @@ input {
     margin-top: 0px;
   }
 }
+
+/*Tablet screens*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/*Laptop screens*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/*Desktop screens*/
+/*@media only screen and (min-width: 1025px) and (max-width: 1200px) {}*/
