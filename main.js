@@ -11,15 +11,23 @@ function discountMessage() {
 let mailingListEmail = document.getElementById("mailing_list_email");
 let emailErrorMessage = document.getElementById("email_error_message");
 let mailingListForm = document.getElementById("mailing_list");
+let emailFormat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 function emailMessage() {
-  if (mailingListEmail.value == "") {
-    emailErrorMessage.innerText = "Please enter your email address:";
-    emailErrorMessage.style.color = "#a5c9ca";
-  } else {
+  if (mailingListEmail.value.match(emailFormat)) {
     mailingListForm.innerText = "Thank you! Your discount code is MAIL10";
     mailingListForm.style.color = "#a5c9ca";
     mailingListForm.style.paddingTop = "2%";
     mailingListForm.style.paddingBottom = "1.5%";
+    document.form1.text1.focus();
+    return true;
+  } else if (mailingListEmail.value == "") {
+    emailErrorMessage.innerText = "Please enter your email address:";
+    emailErrorMessage.style.color = "#a5c9ca";
+  } else {
+    emailErrorMessage.innerText = "Please enter a valid email address:";
+    emailErrorMessage.style.color = "#a5c9ca";
+    document.form1.text1.focus();
+    return false;
   }
 }
 
