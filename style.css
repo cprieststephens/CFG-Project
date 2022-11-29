@@ -39,7 +39,8 @@ footer {
 #text_container {
   /*height: 37vh;*/
   /*width: 480px;*/
-  width: 33%;
+  height: auto;
+  width: 33.3%;
   background: rgba(165, 201, 202, 0.7);
   color: black;
 }
@@ -47,6 +48,7 @@ footer {
 #description {
   width: 80%;
   margin-top: 20%;
+  margin-bottom: 20%;
   margin-left: 10%;
   font-size: 2rem;
   text-align: center;
@@ -59,6 +61,7 @@ footer {
 }
 
 #carousel_container {
+  /*height: 37vh;*/
   display: grid;
   gap: 0;
   grid-template-rows: 100%;
