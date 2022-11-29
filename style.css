@@ -217,42 +217,45 @@ input {
   /*Landing page*/
 
   #background_image {
-    height: auto;
+    height: 33vh;
     background-size: cover;
     width: 100%;
   }
 
   #text_container {
-    height: auto;
+    height: 33vh;
     width: 65%;
   }
 
   #description {
     font-size: 1.5rem;
+    margin-top: 25%;
   }
 
-  /*#carousel_container {
+  #carousel_container {
     display: grid;
     gap: 0;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 30% 30%;
-  }*/
+    grid-template-rows: 100%;
+  }
 
-  /*.carousel_side {
+  .carousel_side {
     display: none;
-  }*/
+  }
 
-  /*.carousel_image {
-    width: 350px;
-    height: 39vh;
-  }*/
+  .carousel_image {
+    width: 100%;
+    height: auto;
+  }
 
   #form_container {
-    padding-bottom: 7%;
+    /*padding-bottom: 7%;*/
+    padding-bottom: 16%;
   }
 
   #mailing_list {
-    padding-top: 3%;
+    /*padding-top: 3%;*/
+    padding-top: 13%;
   }
 
   #email {
