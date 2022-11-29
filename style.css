@@ -233,19 +233,12 @@ input {
   }
 
   #carousel_container {
-    display: grid;
-    gap: 0;
-    grid-template-columns: 100%;
     grid-template-rows: 100%;
+    grid-template-columns: 100%;
   }
 
   .carousel_side {
     display: none;
-  }
-
-  .carousel_image {
-    width: 100%;
-    height: auto;
   }
 
   #form_container {
@@ -332,6 +325,22 @@ input {
 
 /*Tablet screens*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  /*Landing Page*/
+  /*#carousel_container {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  }*/
+
+  .carousel_side {
+    display: none;
+  }
+
+  /*.carousel_image {
+  width: 50%;
+  height: auto;
+  }*/
 }
 
 /*Laptop screens*/
