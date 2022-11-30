@@ -1,15 +1,15 @@
 //Landing Page
 
 //Function to create prompt message for mailing list
-let mailingListPrompt = document.getElementById("mailing_list_prompt");
+let emailErrorMessage = document.getElementById("email_error_message");
 function discountMessage() {
-  mailingListPrompt.innerText =
+  emailErrorMessage.innerText =
     "Sign up for our mailing list to receive 10% off your next order!";
+  emailErrorMessage.style.color = "#a5c9ca";
 }
 
 //Function to validate mailing list form
 let mailingListEmail = document.getElementById("mailing_list_email");
-let emailErrorMessage = document.getElementById("email_error_message");
 let mailingListForm = document.getElementById("mailing_list");
 let emailFormat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 function emailMessage() {
