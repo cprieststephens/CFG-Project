@@ -160,7 +160,7 @@ section {
 #login_page_background {
   height: 87vh;
   width: 100%;
-  background: url(img/landing_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
+  background: url(img/register_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -339,6 +339,8 @@ input {
     background: rgba(165, 201, 202, 0.7);
     color: black;
   }
+
+  /*Log in Page*/
 }
 
 /*Laptop screens*/
