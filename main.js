@@ -3,8 +3,7 @@
 //Function to create prompt message for mailing list
 let emailErrorMessage = document.getElementById("email_error_message");
 function discountMessage() {
-  emailErrorMessage.innerText =
-    "Sign up for our mailing list to receive 10% off your next order!";
+  emailErrorMessage.innerText = "Sign up to get 10% off your next order!";
   emailErrorMessage.style.color = "#a5c9ca";
 }
 
