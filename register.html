@@ -148,9 +148,7 @@
       <!--Registration form-->
       <div id="register_form">
         <h4 class="form_title">Register</h4>
-        <p id="register_feedback">
-          Please fill in this form to create an account:
-        </p>
+        <p id="register_feedback">Please create an account:</p>
         <form action="action_page.php" novalidate onsubmit="return false">
           <div class="form-group">
             <input
@@ -180,7 +178,12 @@
               required
             />
           </div>
-          <p>By creating an account you agree to our Terms & Privacy</p>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label" for="check_box"
+              >I agree to Terms & Privacy</label
+            >
+          </div>
           <button
             type="submit"
             class="btn"
