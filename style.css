@@ -171,7 +171,7 @@ section {
 #login_form,
 #register_form {
   width: 40%;
-  height: 45vh;
+  height: auto;
   background-color: rgba(165, 201, 202, 0.7);
   padding: 20px;
   margin-left: 6.5%;

@@ -40,7 +40,7 @@ function loginMessage() {
   if (loginEmail.value == "") {
     loginFeedback.innerText = "Please enter your email address:";
     loginFeedback.style.color = "#256d85";
-  } else if (loginPassword.value == "") {
+  } else if (loginPassword == "") {
     loginFeedback.innerText = "Please enter your password:";
     loginFeedback.style.color = "#256d85";
   } else {
@@ -48,6 +48,16 @@ function loginMessage() {
     loginFeedback.style.color = "black";
   }
 }
+//} else if (loginEmail.value != "" && loginEmail.value != emailFormat) {
+//loginFeedback.innerText = "Please enter a valid email address:";
+//loginFeedback.style.color = "#256d85";
+//document.form1.text1.focus();
+//return false;
+//} else if (loginEmail.value.match(emailFormat)) {
+//loginFeedback.innerText = "Please enter a password:";
+//loginFeedback.style.color = "#256d85";
+//document.form1.text1.focus();
+//return true;
 
 //Function to reset password
 let resetCheckBox = document.getElementById("reset_check_box");
