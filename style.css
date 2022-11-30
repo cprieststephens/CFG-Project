@@ -272,14 +272,10 @@ input {
     border: none;
   }
 
-  .additional_footer {
-    display: none;
-  }
-
   /*Log in Page*/
 
   #login_page_background {
-    height: 100vh;
+    height: 87vh;
     flex-direction: column;
   }
 
@@ -289,20 +285,22 @@ input {
 
   #login_form {
     width: 80%;
-    height: 325px;
     margin: 25px 0 0 0;
   }
 
   #register_form {
     width: 80%;
-    height: 350px;
     margin: 25px 0 15px 0;
     padding-bottom: 0;
   }
 
-  #login_button,
+  #login_button {
+    margin-top: 0px;
+  }
+
   #register_button {
     margin-top: 0px;
+    margin-bottom: 7%;
   }
 }
 
