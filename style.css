@@ -262,8 +262,14 @@ input {
     margin-top: -10px;
   }
 
+  .category_title {
+    margin-top: 5%;
+  }
+
   .card {
-    margin-top: 10px;
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
     margin-left: 20%;
   }
 
