@@ -65,7 +65,6 @@ resetCheckBox.addEventListener("change", function (event) {
     loginPassword.value = "xxx";
     rememberMe.style.display = "none";
     loginButton.innerText = "Submit";
-    resetPasswordForm.style.height = "50vh";
   }
 });
 
