@@ -36,11 +36,12 @@ function emailMessage() {
 let loginEmail = document.getElementById("login_email");
 let loginPassword = document.getElementById("login_password");
 let loginFeedback = document.getElementById("login_feedback");
-function loginMessage() {
+
+function checkLoginDetails() {
   if (loginEmail.value == "") {
     loginFeedback.innerText = "Please enter your email address:";
     loginFeedback.style.color = "#256d85";
-  } else if (loginPassword == "") {
+  } else if (loginPassword.value == "") {
     loginFeedback.innerText = "Please enter your password:";
     loginFeedback.style.color = "#256d85";
   } else {
@@ -48,16 +49,6 @@ function loginMessage() {
     loginFeedback.style.color = "black";
   }
 }
-//} else if (loginEmail.value != "" && loginEmail.value != emailFormat) {
-//loginFeedback.innerText = "Please enter a valid email address:";
-//loginFeedback.style.color = "#256d85";
-//document.form1.text1.focus();
-//return false;
-//} else if (loginEmail.value.match(emailFormat)) {
-//loginFeedback.innerText = "Please enter a password:";
-//loginFeedback.style.color = "#256d85";
-//document.form1.text1.focus();
-//return true;
 
 //Function to reset password
 let resetCheckBox = document.getElementById("reset_check_box");
@@ -83,7 +74,7 @@ let registerEmail = document.getElementById("register_email");
 let registerPassword = document.getElementById("register_password");
 let repeatPassword = document.getElementById("repeat_password");
 let registerFeedback = document.getElementById("register_feedback");
-function registerMessage() {
+function checkRegisterDetails() {
   if (registerEmail.value == "") {
     registerFeedback.innerText = "Please enter your email address:";
     registerFeedback.style.color = "#256d85";
