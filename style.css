@@ -102,7 +102,7 @@ footer {
 section {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding-top: 30px;
+  padding-top: 0.5%;
 }
 
 #top_section {
@@ -128,14 +128,13 @@ section {
 .product_category {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 55px;
+  margin-bottom: 1%;
 }
 
 .card {
   border: 1px solid black;
-  width: 14rem;
-  height: 22rem;
-  margin-top: 20px;
+  width: 12rem;
+  height: 20rem;
 }
 
 .card-img-top {
@@ -144,11 +143,15 @@ section {
   height: 45%;
 }
 
+.card-title {
+  font-size: 1.1rem;
+}
+
 .btn {
   color: white;
   background-color: #256d85;
   border: none;
-  margin-top: 15px;
+  margin-top: 3%;
 }
 
 #final_section {
