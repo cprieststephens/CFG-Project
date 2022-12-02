@@ -97,23 +97,8 @@ footer {
 }
 
 /*Shop Page*/
-#products {
-  background-color: #a5c9ca;
-}
-
-section {
-  /*border-top: 1px solid black;
-  border-bottom: 1px solid black;*/
-  /*padding-top: 0.5%;*/
-}
-
 #top_section {
   padding-top: 75px;
-}
-
-#fruit {
-  border: none;
-  background-color: #a5c9ca;
 }
 
 .category_title {
@@ -147,10 +132,6 @@ section {
   background-color: #256d85;
   border: none;
   margin-top: 3%;
-}
-
-#final_section {
-  border-bottom: 5px solid #256d85;
 }
 
 /*Register page*/
