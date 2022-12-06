@@ -150,7 +150,7 @@ footer {
 /*Register page*/
 
 #login_page_background {
-  height: 87vh;
+  height: 94vh;
   width: 100%;
   background: url(img/register_page/heather-barnes-WbZesfqwR-A-unsplash.jpg);
   background-size: cover;
@@ -273,7 +273,7 @@ input {
   /*Register page*/
 
   #login_page_background {
-    height: 87vh;
+    height: 95vh;
     flex-direction: column;
   }
 
@@ -283,7 +283,7 @@ input {
 
   #login_form {
     width: 80%;
-    margin: 25px 0 0 0;
+    margin: 90px 0 0 0;
   }
 
   #register_form {
