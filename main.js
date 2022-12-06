@@ -41,6 +41,9 @@ function checkLoginDetails() {
   if (loginEmail.value == "") {
     loginFeedback.innerText = "Please enter your email address:";
     loginFeedback.style.color = "#256d85";
+  } else if (loginEmail.value == "") {
+    loginFeedback.innerText = "Please enter your email address:";
+    loginFeedback.style.color = "#256d85";
   } else if (loginPassword.value == "") {
     loginFeedback.innerText = "Please enter your password:";
     loginFeedback.style.color = "#256d85";
@@ -83,6 +86,10 @@ function checkRegisterDetails() {
   } else if (repeatPassword.value == "") {
     registerFeedback.innerText = "Please re-enter your password:";
     registerFeedback.style.color = "#256d85";
+  } else if (registerPassword.value != repeatPassword.value) {
+    registerFeedback.innerText = "Passwords don't match.";
+    registerFeedback.style.color = "#256d85";
+    return false;
   } else {
     registerFeedback.innerText = "Thank you for creating your account!";
     registerFeedback.style.color = "black";
