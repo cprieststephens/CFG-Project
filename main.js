@@ -9,14 +9,11 @@ function discountMessage() {
 
 //Function to validate mailing list form
 let mailingListEmail = document.getElementById("mailing_list_email");
-let mailingListForm = document.getElementById("mailing_list");
 let emailFormat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 function emailMessage() {
   if (mailingListEmail.value.match(emailFormat)) {
-    mailingListForm.innerText = "Thank you! Your discount code is MAIL10";
-    mailingListForm.style.color = "#a5c9ca";
-    mailingListForm.style.paddingTop = "2%";
-    mailingListForm.style.paddingBottom = "1.5%";
+    emailErrorMessage.innerText = "Thank you! Your 10% discount code is MAIL10";
+    emailErrorMessage.style.color = "#a5c9ca";
     document.form1.text1.focus();
     return true;
   } else if (mailingListEmail.value == "") {
