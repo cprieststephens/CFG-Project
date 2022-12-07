@@ -10,8 +10,9 @@
   Code First Girls JavaScript MOOC Sprint course materials<br>
   https://getbootstrap.com/docs/4.6/getting-started/introduction/<br>
   https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/<br>
-  https://www.w3schools.blog/email-validation-javascript-js<br>
-  https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/<br>
   https://www.w3schools.com/howto/howto_css_image_responsive.asp<br>
+  https://blog.hubspot.com/website/responsive-text<br>
+  https://www.w3schools.blog/email-validation-javascript-js<br>
   https://sebhastian.com/javascript-match-password-field/<br>
+  https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/<br>
 - README template found here on 13.06.22: https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc
