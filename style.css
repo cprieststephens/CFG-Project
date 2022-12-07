@@ -33,7 +33,6 @@ footer {
 
 #background_image {
   padding-top: 75px;
-  /*height: 45vh;*/
   height: 25em;
   width: 100%;
   background: url(img/landing_page/markus-spiske-vyHo3nnk8G8-unsplash.jpg);
@@ -44,7 +43,6 @@ footer {
 }
 
 #text_container {
-  /*height: 45vh;*/
   height: 25em;
   width: 33.3%;
   background: rgba(165, 201, 202, 0.7);
@@ -55,7 +53,6 @@ footer {
   width: 80%;
   margin-top: 20%;
   margin-left: 10%;
-  /*font-size: 2rem;*/
   font-size: calc(1.25rem + 1vw);
   text-align: center;
 }
@@ -141,15 +138,6 @@ footer {
   margin-top: 3%;
 }
 
-/*.additional_footer {
-  display: flex;
-  justify-content: center;
-  background-color: #efdecd;
-  border-top: 1px solid gainsboro;
-  padding-top: 0.75%;
-  padding-bottom: 0.75%;
-}*/
-
 /*Register page*/
 
 #login_page_background {
@@ -185,20 +173,17 @@ input {
   /*Landing page*/
 
   #background_image {
-    /*height: 42vh;*/
     height: 24em;
     background-size: cover;
     width: 100%;
   }
 
   #text_container {
-    /*height: 42vh;*/
     height: 24em;
     width: 65%;
   }
 
   #description {
-    /*font-size: 1.5rem;*/
     font-size: calc(1.25rem + 1vw);
     margin-top: 30%;
   }
@@ -313,23 +298,19 @@ input {
   /*Landing page*/
 
   #background_image {
-    /*height: 38vh;*/
     height: 22em;
   }
 
   #text_container {
-    /*height: 38vh;*/
     height: 22em;
   }
 
   #description {
-    /*font-size: 1.4rem;*/
     font-size: calc(1rem + 1vw);
     margin-top: 25%;
   }
 
   #additional_image_container {
-    /*height: 28vh;*/
     height: 15em;
     width: 100%;
     background: url(img/landing_page/viktor-talashuk-BTTO404UHzA-unsplash.jpg);
@@ -340,7 +321,6 @@ input {
   }
 
   #additional_text_container {
-    /*height: 28vh;*/
     height: 15em;
     width: 33.3%;
     background: rgba(165, 201, 202, 0.7);
@@ -365,24 +345,20 @@ input {
   /*Landing Page*/
 
   #background_image {
-    /*height: 33vh;*/
     height: 19em;
   }
 
   #text_container {
-    /*height: 33vh;*/
     height: 19em;
     width: 33.3%;
   }
 
   #description {
-    /*font-size: 1.5rem;*/
     font-size: calc(1rem + 1vw);
     margin-top: 12%;
   }
 
   #additional_image_container {
-    /*height: 25vh;*/
     height: 14em;
     width: 100%;
     background: url(img/landing_page/viktor-talashuk-BTTO404UHzA-unsplash.jpg);
@@ -393,7 +369,6 @@ input {
   }
 
   #additional_text_container {
-    /*height: 25vh;*/
     height: 14em;
     width: 33.3%;
     background: rgba(165, 201, 202, 0.7);
