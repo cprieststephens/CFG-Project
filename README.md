@@ -1,4 +1,4 @@
-Fig & Pepper
+# Fig & Pepper
 
 <img src="img\landing_page\CFG_Landing_Page.png" alt="Project website landing page" title="CFG Final Project Landing Page" width="400px"><br>
 
